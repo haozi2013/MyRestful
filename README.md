@@ -23,7 +23,7 @@
 目录结构:
 
     config/mail_config: 邮箱服务器的配置文件
-    archive/: 存放信息发送者信息（根据发送者名字命名，一人一文件）
+    archive/: 存放发送者信息（根据发送者名字命名，一人一文件）
     pylibs/: 类库（restful, mail）
     log/: 项目运行日志（一天一文件）
 
