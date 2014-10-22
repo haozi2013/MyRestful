@@ -5,7 +5,7 @@
 
     系统：
         WindowsXP, Windows7
-        Red Hat（其他未试）
+        Red Hat6.1（其他未试）
 
     环境：
         系统需安装 Python (本项目采用Python 2.6版本)
