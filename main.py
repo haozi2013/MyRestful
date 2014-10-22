@@ -49,7 +49,7 @@ class MyRestful(Restful):
         if datas is False:  # 数据非法则返回
             msg = "Sender's information is wrong!"
             self.logger.write(msg, 'LV_WARNING')
-            self.wfile.write("Your's information is wrong!\n")
+            self.wfile.write("Your information is wrong!\n")
             return
         msg = "Received sender information succ!"
         self.logger.write(msg, 'LV_INFO')
