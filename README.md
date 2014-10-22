@@ -1,4 +1,4 @@
 MyRestful
 =========
 
-restful
+It's my first project on github!
