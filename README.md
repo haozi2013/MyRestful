@@ -11,20 +11,24 @@
         系统需安装 Python (本项目采用Python 2.6版本)
 
 功能：
+
     通过 Python 搭建简单的 RESTful API，实现信息的采集和邮件发送
 
 工作流程：
+
     1、搭建 RESTful API , 监听消息
     2、通过 post 模式接收到发送者的信息
     3、发送邮件给信息发送者、发送邮件给特定邮箱并记录下发送者的信息
 
 目录结构:
+
     config/mail_config: 邮箱服务器的配置文件
     archive/: 存放信息发送者信息（根据发送者名字命名，一人一文件）
     pylibs/: 类库（restful, mail）
     log/: 项目运行日志（一天一文件）
 
 项目示例：
+
     一、通过编写 config/mail_config 配置 邮箱服务器等信息。
     二、运行main.py，开启消息监听。
     三、通过 curl 指令发送个人信息给RESTful API（在Linux 运行，Windows 未测）：
