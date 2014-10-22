@@ -32,7 +32,7 @@
     一、通过编写 config/mail_config 配置 邮箱服务器等信息。
     二、运行main.py，开启消息监听。
     三、通过 curl 指令发送个人信息给RESTful API（在Linux 运行，Windows 未测）：
-        1、编写 data.json文件，需要设置 "email"，"first_name"，"last_name"，
+        1、编写 json 格式文件，如 data.json，需要设置 "email"，"first_name"，"last_name"，
             "contact_number","title","content","link"
         2、$ curl -X POST -H "Accept: application/json" -d @data.json http://targethost:8000/rest  #rest和端口为固定值
             发送个人信息.
