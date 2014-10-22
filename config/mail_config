@@ -1,0 +1,5 @@
+{
+	"mail_from": 'test@test.com',	# 服务器邮箱地址
+	"mail_pwd": 'user',			# 用户密码
+	"dedicated_email_account": 'test1@test1.com'	# 专用邮箱地址（用于记录发送者信息）
+}
